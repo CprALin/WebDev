@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite; 
+ }
+ 
+ h1 {
+    text-align: center;
+    color: yellow;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg"); 
+    font-size: 50px;
+ }
+ 
+ h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+ }
+ 
+ h4 {
+    font-size: 20px; 
+ }
+ 
+ #first {
+   background-color: greenyellow;
+   opacity: 0.6; 
+ }
+ 
+ #second {
+     background-color: red;
+     opacity: 0.6;
+ }
+ 
+ #third {
+     background-color: blue;
+     opacity: 0.6;
+ }
+ 
+ span {
+    font-weight: bold;
+    color: blue; 
+ }
