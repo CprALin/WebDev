@@ -332,25 +332,5 @@ nav button:hover {
     padding: 10px 10px;  
 }
 
-.body p{
-   font-size: 20px;
-   font-weight: 300;
-   font-style: italic;
-   padding: 12px 12px;
-   text-align: center;
-}
 
-.body h1 {
-    text-align: center;
-    padding: 10px 10px;
-    text-decoration: underline;
-}
 
-.body {
-   background-color: antiquewhite;
-   margin: 3cm 3cm;
-   padding: 3cm 3cm;
-   height: 15cm; 
-   border-radius: 7%;
-   box-shadow: 0 4px 8px 0 rgba(36, 34, 34, 0.822), 0 6px 20px 0 rgba(0, 0, 0, 0.507);
-}
