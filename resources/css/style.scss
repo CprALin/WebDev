@@ -7,10 +7,14 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
+body {
+   height: auto; 
+}
+
 $color: rgba(0, 0, 0, 0.807);
 $textcolor: #dfd9d9;
-$activeColor: #cae035;
-$shadow: rgba(226, 245, 80, 0.864);
+$activeColor: #ffdd47;
+$shadow: rgba(245, 220, 80, 0.864);
 
 nav {
     display: flex;
@@ -76,11 +80,6 @@ body {
     background-repeat: no-repeat;
 }
 
-main {
-    height: 100vh;
-}
-
-
 
 main .btn {
     display: flex;
@@ -105,6 +104,10 @@ main button:hover {
     box-shadow: 2px 3px 5px $shadow;
 }
 
+main{
+    height: 100vh;
+}
+
 main h1 {
     color: $textcolor;
     font-size: 3em;
@@ -126,6 +129,12 @@ main .text {
 main p {
     color: $textcolor;
     font-size: 1.2em;
+}
+
+@media screen and (max-height:347px){
+    main {
+       height: auto; 
+    }
 }
 
 @media(max-width:768px){

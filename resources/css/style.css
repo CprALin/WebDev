@@ -7,6 +7,10 @@ html {
   font-family: "Lato", sans-serif;
 }
 
+body {
+  height: auto;
+}
+
 nav {
   display: flex;
   position: relative;
@@ -42,11 +46,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #cae035;
+  color: #ffdd47;
 }
 
 .nav-menu .active {
-  color: #cae035;
+  color: #ffdd47;
 }
 
 .hmb {
@@ -69,10 +73,6 @@ body {
   background-repeat: no-repeat;
 }
 
-main {
-  height: 100vh;
-}
-
 main .btn {
   display: flex;
   justify-content: center;
@@ -91,9 +91,13 @@ main button {
 }
 
 main button:hover {
-  color: #cae035;
+  color: #ffdd47;
   font-size: 1.3em;
-  box-shadow: 2px 3px 5px rgba(226, 245, 80, 0.864);
+  box-shadow: 2px 3px 5px rgba(245, 220, 80, 0.864);
+}
+
+main {
+  height: 100vh;
 }
 
 main h1 {
@@ -119,6 +123,11 @@ main p {
   font-size: 1.2em;
 }
 
+@media screen and (max-height: 347px) {
+  main {
+    height: auto;
+  }
+}
 @media (max-width: 768px) {
   .hmb {
     display: block;
