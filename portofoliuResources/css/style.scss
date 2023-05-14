@@ -73,7 +73,7 @@ nav ul li a:hover {
 
 main {
     background-color: $backColor;
-    height: auto;
+    height: 100vh;
 }
 
 main .title {
@@ -86,7 +86,7 @@ main .title {
     display: grid;
     grid-template-columns: repeat(4, 0.5fr);
     gap: 0.5em;
-    margin: 1em -0.5em 0em 1.5em;
+    margin: 1em -0.5em 0em 7em;
 }
 
 .grid-container img {
@@ -108,7 +108,7 @@ main .title {
 .img6 img {
     width: 35em;
     position: relative;
-    left: 2em;
+    left: 7em;
 }
 
 @media(min-width:2560px){
